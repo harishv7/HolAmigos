@@ -1,0 +1,1971 @@
+Comparing files normalized_test_output 99.928% Training Accuracy.csv and NORMALIZED_TEST_OUTPUT.CSV
+***** normalized_test_output 99.928% Training Accuracy.csv
+9_3,8 21
+9_4,21
+9_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+9_3,8 21
+9_4,-1
+9_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+11_4,27
+11_5,-1
+12_1,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+11_4,27
+11_5,49
+12_1,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+19_4,-1
+19_5,17
+20_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+19_4,-1
+19_5,-1
+20_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+24_3,-1
+24_4,-1
+24_5,-1
+25_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+24_3,-1
+24_4,24
+24_5,24
+25_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+25_4,4
+25_5,-1
+26_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+25_4,4
+25_5,64
+26_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+32_4,4
+32_5,-1
+33_1,8
+***** NORMALIZED_TEST_OUTPUT.CSV
+32_4,4
+32_5,4
+33_1,8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+34_3,-1
+34_4,-1
+34_5,50
+35_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+34_3,-1
+34_4,4
+34_5,4 50
+35_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+37_2,9
+37_3,9
+37_4,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+37_2,9
+37_3,-1
+37_4,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+42_4,22
+42_5,-1
+43_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+42_4,22
+42_5,4
+43_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+44_2,14 27
+44_3,14 27
+44_4,14 27
+44_5,14
+45_1,124
+***** NORMALIZED_TEST_OUTPUT.CSV
+44_2,14 27
+44_3,27
+44_4,27
+44_5,27
+45_1,124
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+54_4,8
+54_5,-1
+55_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+54_4,8
+54_5,8
+55_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+58_2,17
+58_3,-1
+58_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+58_2,17
+58_3,4
+58_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+60_1,24
+60_2,24 37
+60_3,24
+60_4,24
+60_5,-1
+61_1,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+60_1,24
+60_2,-1
+60_3,-1
+60_4,-1
+60_5,73
+61_1,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+62_3,-1
+62_4,49 90
+62_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+62_3,-1
+62_4,90
+62_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+63_3,-1
+63_4,8
+63_5,56
+***** NORMALIZED_TEST_OUTPUT.CSV
+63_3,-1
+63_4,-1
+63_5,56
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+67_4,22
+67_5,22
+68_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+67_4,22
+67_5,9 22
+68_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+70_2,-1
+70_3,9
+70_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+70_2,-1
+70_3,-1
+70_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+71_4,-1
+71_5,-1
+72_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+71_4,-1
+71_5,14
+72_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+77_2,-1
+77_3,-1
+77_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+77_2,-1
+77_3,14
+77_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+81_3,4
+81_4,17
+81_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+81_3,4
+81_4,-1
+81_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+84_4,55 68
+84_5,-1
+85_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+84_4,55 68
+84_5,29
+85_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+87_3,-1
+87_4,-1
+87_5,17
+***** NORMALIZED_TEST_OUTPUT.CSV
+87_3,-1
+87_4,9
+87_5,17
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+92_2,17
+92_3,-1
+92_4,17
+92_5,17
+93_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+92_2,17
+92_3,17
+92_4,17
+92_5,9
+93_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+98_4,29
+98_5,29
+99_1,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+98_4,29
+98_5,29 52
+99_1,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+100_3,4
+100_4,4
+100_5,17
+***** NORMALIZED_TEST_OUTPUT.CSV
+100_3,4
+100_4,-1
+100_5,17
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+108_3,14
+108_4,14 53
+108_5,-1
+109_1,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+108_3,14
+108_4,53
+108_5,14
+109_1,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+115_4,-1
+115_5,-1
+116_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+115_4,-1
+115_5,4
+116_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+123_2,4 8
+123_3,4
+123_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+123_2,4 8
+123_3,8
+123_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+131_4,8
+131_5,-1
+132_1,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+131_4,8
+131_5,42
+132_1,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+134_4,49
+134_5,-1
+135_1,19
+***** NORMALIZED_TEST_OUTPUT.CSV
+134_4,49
+134_5,4
+135_1,19
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+138_4,4
+138_5,-1
+139_1,29
+***** NORMALIZED_TEST_OUTPUT.CSV
+138_4,4
+138_5,17
+139_1,29
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+149_4,17
+149_5,-1
+150_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+149_4,17
+149_5,17
+150_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+153_1,4 8
+153_2,-1
+153_3,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+153_1,4 8
+153_2,4
+153_3,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+158_4,4 35
+158_5,-1
+159_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+158_4,4 35
+158_5,35
+159_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+162_4,4
+162_5,4
+163_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+162_4,4
+162_5,-1
+163_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+164_4,4 17
+164_5,-1
+165_1,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+164_4,4 17
+164_5,4 17
+165_1,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+167_3,-1
+167_4,-1
+167_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+167_3,-1
+167_4,49
+167_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+170_2,-1
+170_3,-1
+170_4,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+170_2,-1
+170_3,9
+170_4,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+172_4,29
+172_5,67
+173_1,8
+***** NORMALIZED_TEST_OUTPUT.CSV
+172_4,29
+172_5,54 67
+173_1,8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+173_4,4
+173_5,-1
+174_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+173_4,4
+173_5,58
+174_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+174_4,-1
+174_5,36
+175_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+174_4,-1
+174_5,-1
+175_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+175_4,-1
+175_5,-1
+176_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+175_4,-1
+175_5,60
+176_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+177_4,-1
+177_5,9
+178_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+177_4,-1
+177_5,-1
+178_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+179_3,32
+179_4,4
+179_5,-1
+180_1,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+179_3,32
+179_4,4 32
+179_5,4
+180_1,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+186_2,9 22
+186_3,22
+186_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+186_2,9 22
+186_3,9 22
+186_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+190_4,-1
+190_5,28
+191_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+190_4,-1
+190_5,-1
+191_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+197_3,-1
+197_4,-1
+197_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+197_3,-1
+197_4,26
+197_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+202_4,-1
+202_5,-1
+203_1,29
+***** NORMALIZED_TEST_OUTPUT.CSV
+202_4,-1
+202_5,64
+203_1,29
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+207_4,-1
+207_5,4
+208_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+207_4,-1
+207_5,-1
+208_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+209_4,-1
+209_5,14
+210_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+209_4,-1
+209_5,-1
+210_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+231_4,-1
+231_5,-1
+232_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+231_4,-1
+231_5,4
+232_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+236_2,34
+236_3,-1
+236_4,-1
+236_5,34
+***** NORMALIZED_TEST_OUTPUT.CSV
+236_2,34
+236_3,34
+236_4,34
+236_5,34
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+238_4,-1
+238_5,-1
+239_1,19
+***** NORMALIZED_TEST_OUTPUT.CSV
+238_4,-1
+238_5,17
+239_1,19
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+243_2,9
+243_3,17
+243_4,-1
+243_5,17
+***** NORMALIZED_TEST_OUTPUT.CSV
+243_2,9
+243_3,9 17
+243_4,17
+243_5,17
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+245_2,9
+245_3,9 36
+245_4,-1
+245_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+245_2,9
+245_3,36
+245_4,36
+245_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+248_3,19
+248_4,-1
+248_5,27
+***** NORMALIZED_TEST_OUTPUT.CSV
+248_3,19
+248_4,27
+248_5,27
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+255_3,19
+255_4,54
+255_5,67
+***** NORMALIZED_TEST_OUTPUT.CSV
+255_3,19
+255_4,54 67
+255_5,67
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+263_4,-1
+263_5,-1
+264_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+263_4,-1
+263_5,17
+264_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+268_2,-1
+268_3,-1
+268_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+268_2,-1
+268_3,9
+268_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+277_3,31
+277_4,-1
+277_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+277_3,31
+277_4,31
+277_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+291_4,-1
+291_5,-1
+292_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+291_4,-1
+291_5,69
+292_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+296_2,16
+296_3,-1
+296_4,16 41
+296_5,-1
+297_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+296_2,16
+296_3,4
+296_4,16 41
+296_5,16 41
+297_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+298_4,9
+298_5,23
+299_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+298_4,9
+298_5,-1
+299_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+318_1,44
+318_2,-1
+318_3,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+318_1,44
+318_2,57
+318_3,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+322_2,9
+322_3,-1
+322_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+322_2,9
+322_3,9
+322_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+351_3,9
+351_4,-1
+351_5,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+351_3,9
+351_4,31
+351_5,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+355_2,-1
+355_3,-1
+355_4,43
+355_5,43
+356_1,8
+***** NORMALIZED_TEST_OUTPUT.CSV
+355_2,-1
+355_3,9
+355_4,43
+355_5,-1
+356_1,8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+361_4,50
+361_5,-1
+362_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+361_4,50
+361_5,50
+362_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+364_3,4 17
+364_4,-1
+364_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+364_3,4 17
+364_4,4
+364_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+365_4,17
+365_5,-1
+366_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+365_4,17
+365_5,17
+366_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+368_3,-1
+368_4,-1
+368_5,4 59
+***** NORMALIZED_TEST_OUTPUT.CSV
+368_3,-1
+368_4,4
+368_5,4 59
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+371_4,-1
+371_5,21
+372_1,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+371_4,-1
+371_5,4 21
+372_1,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+373_4,54
+373_5,-1
+374_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+373_4,54
+373_5,54
+374_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+381_3,-1
+381_4,-1
+381_5,56
+***** NORMALIZED_TEST_OUTPUT.CSV
+381_3,-1
+381_4,56
+381_5,56
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+383_3,14
+383_4,14
+383_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+383_3,14
+383_4,-1
+383_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+388_4,-1
+388_5,-1
+389_1,19
+***** NORMALIZED_TEST_OUTPUT.CSV
+388_4,-1
+388_5,8
+389_1,19
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+389_2,19 27
+389_3,-1
+389_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+389_2,19 27
+389_3,19
+389_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+391_3,36
+391_4,-1
+391_5,-1
+392_1,29
+***** NORMALIZED_TEST_OUTPUT.CSV
+391_3,36
+391_4,36
+391_5,36
+392_1,29
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+402_2,19
+402_3,19
+402_4,-1
+402_5,19
+403_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+402_2,19
+402_3,-1
+402_4,-1
+402_5,69
+403_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+404_1,29
+404_2,-1
+404_3,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+404_1,29
+404_2,29
+404_3,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+412_4,-1
+412_5,-1
+413_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+412_4,-1
+412_5,31
+413_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+417_4,-1
+417_5,-1
+418_1,19
+***** NORMALIZED_TEST_OUTPUT.CSV
+417_4,-1
+417_5,49
+418_1,19
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+418_4,19
+418_5,-1
+419_1,24
+***** NORMALIZED_TEST_OUTPUT.CSV
+418_4,19
+418_5,19
+419_1,24
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+423_2,-1
+423_3,-1
+423_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+423_2,-1
+423_3,19
+423_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+442_2,-1
+442_3,-1
+442_4,-1
+442_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+442_2,-1
+442_3,34
+442_4,34
+442_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+444_2,9
+444_3,-1
+444_4,44
+444_5,-1
+445_1,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+444_2,9
+444_3,9
+444_4,44
+444_5,44
+445_1,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+445_3,-1
+445_4,14
+445_5,22
+446_1,19
+***** NORMALIZED_TEST_OUTPUT.CSV
+445_3,-1
+445_4,-1
+445_5,14 22
+446_1,19
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+453_3,-1
+453_4,-1
+453_5,4 22
+***** NORMALIZED_TEST_OUTPUT.CSV
+453_3,-1
+453_4,22
+453_5,4 22
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+458_3,9
+458_4,-1
+458_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+458_3,9
+458_4,9
+458_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+470_4,4
+470_5,-1
+471_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+470_4,4
+470_5,58
+471_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+479_4,86
+479_5,-1
+480_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+479_4,86
+479_5,86
+480_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+484_3,-1
+484_4,-1
+484_5,50
+***** NORMALIZED_TEST_OUTPUT.CSV
+484_3,-1
+484_4,8
+484_5,50
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+488_3,-1
+488_4,-1
+488_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+488_3,-1
+488_4,22
+488_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+492_2,19 27
+492_3,27 31
+492_4,31
+492_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+492_2,19 27
+492_3,27
+492_4,-1
+492_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+493_4,50
+493_5,-1
+494_1,8
+***** NORMALIZED_TEST_OUTPUT.CSV
+493_4,50
+493_5,50
+494_1,8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+496_4,-1
+496_5,-1
+497_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+496_4,-1
+496_5,19
+497_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+503_1,9
+503_2,9
+503_3,9
+503_4,45
+503_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+503_1,9
+503_2,-1
+503_3,-1
+503_4,-1
+503_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+504_2,-1
+504_3,-1
+504_4,-1
+504_5,82
+***** NORMALIZED_TEST_OUTPUT.CSV
+504_2,-1
+504_3,29
+504_4,29
+504_5,82
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+508_2,-1
+508_3,14
+508_4,41
+508_5,-1
+509_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+508_2,-1
+508_3,-1
+508_4,-1
+508_5,41
+509_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+520_3,29 51
+520_4,29 51
+520_5,-1
+521_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+520_3,29 51
+520_4,29
+520_5,51
+521_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+529_2,22
+529_3,-1
+529_4,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+529_2,22
+529_3,14
+529_4,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+530_4,-1
+530_5,-1
+531_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+530_4,-1
+530_5,24
+531_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+537_3,-1
+537_4,-1
+537_5,46
+***** NORMALIZED_TEST_OUTPUT.CSV
+537_3,-1
+537_4,46
+537_5,46
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+539_4,9 35
+539_5,-1
+540_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+539_4,9 35
+539_5,17
+540_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+551_4,-1
+551_5,39
+552_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+551_4,-1
+551_5,-1
+552_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+561_3,34
+561_4,-1
+561_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+561_3,34
+561_4,34
+561_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+565_4,37
+565_5,24 37
+566_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+565_4,37
+565_5,37
+566_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+567_3,-1
+567_4,9
+567_5,-1
+568_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+567_3,-1
+567_4,9 31
+567_5,31
+568_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+570_4,-1
+570_5,-1
+571_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+570_4,-1
+570_5,4
+571_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+571_4,-1
+571_5,-1
+572_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+571_4,-1
+571_5,9
+572_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+573_2,4 17
+573_3,-1
+573_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+573_2,4 17
+573_3,4
+573_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+574_4,9
+574_5,-1
+575_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+574_4,9
+574_5,9
+575_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+575_2,9
+575_3,-1
+575_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+575_2,9
+575_3,9
+575_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+577_4,-1
+577_5,-1
+578_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+577_4,-1
+577_5,66
+578_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+586_4,-1
+586_5,-1
+587_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+586_4,-1
+586_5,8
+587_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+588_4,4
+588_5,4 62
+589_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+588_4,4
+588_5,62
+589_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+599_3,4
+599_4,-1
+599_5,-1
+600_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+599_3,4
+599_4,4
+599_5,4
+600_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+601_4,4
+601_5,-1
+602_1,8
+***** NORMALIZED_TEST_OUTPUT.CSV
+601_4,4
+601_5,29
+602_1,8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+604_4,14
+604_5,-1
+605_1,19
+***** NORMALIZED_TEST_OUTPUT.CSV
+604_4,14
+604_5,14
+605_1,19
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+609_4,14 55
+609_5,55 63
+610_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+609_4,14 55
+609_5,14 55 63
+610_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+611_2,4
+611_3,-1
+611_4,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+611_2,4
+611_3,4
+611_4,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+612_4,4
+612_5,-1
+613_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+612_4,4
+612_5,16
+613_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+615_4,49
+615_5,24
+616_1,8
+***** NORMALIZED_TEST_OUTPUT.CSV
+615_4,49
+615_5,-1
+616_1,8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+620_3,36
+620_4,36
+620_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+620_3,36
+620_4,-1
+620_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+629_3,4
+629_4,-1
+629_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+629_3,4
+629_4,4
+629_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+631_3,-1
+631_4,-1
+631_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+631_3,-1
+631_4,21
+631_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+637_4,36
+637_5,36
+638_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+637_4,36
+637_5,9 36
+638_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+639_4,-1
+639_5,-1
+640_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+639_4,-1
+639_5,44
+640_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+657_2,9
+657_3,-1
+657_4,-1
+657_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+657_2,9
+657_3,9
+657_4,9
+657_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+658_4,-1
+658_5,-1
+659_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+658_4,-1
+658_5,9
+659_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+667_3,36
+667_4,36
+667_5,36
+668_1,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+667_3,36
+667_4,-1
+667_5,-1
+668_1,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+684_1,19
+684_2,32
+684_3,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+684_1,19
+684_2,19 32
+684_3,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+684_4,-1
+684_5,19
+685_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+684_4,-1
+684_5,19 32
+685_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+689_4,-1
+689_5,-1
+690_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+689_4,-1
+689_5,22
+690_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+695_4,31
+695_5,31
+696_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+695_4,31
+695_5,9 31
+696_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+696_2,8
+696_3,4
+696_4,30
+696_5,4
+697_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+696_2,8
+696_3,-1
+696_4,8 30
+696_5,-1
+697_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+698_4,24 51
+698_5,-1
+699_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+698_4,24 51
+698_5,24
+699_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+700_2,17
+700_3,-1
+700_4,17
+***** NORMALIZED_TEST_OUTPUT.CSV
+700_2,17
+700_3,4
+700_4,17
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+703_2,19
+703_3,19 44
+703_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+703_2,19
+703_3,44
+703_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+712_3,14
+712_4,-1
+712_5,-1
+713_1,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+712_3,14
+712_4,14
+712_5,14
+713_1,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+734_2,4
+734_3,-1
+734_4,-1
+734_5,59
+***** NORMALIZED_TEST_OUTPUT.CSV
+734_2,4
+734_3,4
+734_4,4
+734_5,59
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+738_3,-1
+738_4,-1
+738_5,-1
+739_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+738_3,-1
+738_4,19
+738_5,32
+739_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+741_4,-1
+741_5,-1
+742_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+741_4,-1
+741_5,34
+742_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+748_4,17
+748_5,36
+749_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+748_4,17
+748_5,9 36
+749_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+751_3,4 8
+751_4,4
+751_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+751_3,4 8
+751_4,-1
+751_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+753_3,36
+753_4,-1
+753_5,-1
+754_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+753_3,36
+753_4,36
+753_5,36
+754_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+754_2,9
+754_3,-1
+754_4,-1
+754_5,31 61
+755_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+754_2,9
+754_3,9
+754_4,9
+754_5,9 31 61
+755_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+759_3,-1
+759_4,-1
+759_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+759_3,-1
+759_4,54
+759_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+764_4,14
+764_5,14
+765_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+764_4,14
+764_5,-1
+765_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+780_3,-1
+780_4,-1
+780_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+780_3,-1
+780_4,4
+780_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+784_4,4 43
+784_5,-1
+785_1,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+784_4,4 43
+784_5,4
+785_1,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+786_4,59
+786_5,-1
+787_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+786_4,59
+786_5,59
+787_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+794_4,-1
+794_5,93
+795_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+794_4,-1
+794_5,-1
+795_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+800_1,14
+800_2,22
+800_3,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+800_1,14
+800_2,-1
+800_3,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+802_1,24
+802_2,24
+802_3,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+802_1,24
+802_2,-1
+802_3,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+809_2,-1
+809_3,-1
+809_4,9
+809_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+809_2,-1
+809_3,9
+809_4,-1
+809_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+824_4,31
+824_5,72
+825_1,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+824_4,31
+824_5,31 72
+825_1,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+827_3,4
+827_4,-1
+827_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+827_3,4
+827_4,4
+827_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+832_1,9
+832_2,9 22
+832_3,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+832_1,9
+832_2,22
+832_3,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+835_4,-1
+835_5,-1
+836_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+835_4,-1
+835_5,4
+836_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+840_2,8
+840_3,-1
+840_4,8
+840_5,8
+***** NORMALIZED_TEST_OUTPUT.CSV
+840_2,8
+840_3,4
+840_4,4 8
+840_5,8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+841_4,-1
+841_5,50
+842_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+841_4,-1
+841_5,14
+842_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+843_4,4
+843_5,-1
+844_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+843_4,4
+843_5,4
+844_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+845_2,4 17
+845_3,17
+845_4,17
+845_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+845_2,4 17
+845_3,-1
+845_4,-1
+845_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+848_1,59
+848_2,59 114
+848_3,-1
+848_4,-1
+848_5,-1
+849_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+848_1,59
+848_2,59
+848_3,59
+848_4,59
+848_5,59 114
+849_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+850_2,-1
+850_3,67
+850_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+850_2,-1
+850_3,44
+850_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+855_2,4 8
+855_3,8
+855_4,-1
+855_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+855_2,4 8
+855_3,4
+855_4,4
+855_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+857_2,4
+857_3,-1
+857_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+857_2,4
+857_3,4
+857_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+859_3,-1
+859_4,4 50
+859_5,4 50
+860_1,24
+***** NORMALIZED_TEST_OUTPUT.CSV
+859_3,-1
+859_4,50
+859_5,50
+860_1,24
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+891_3,-1
+891_4,4
+891_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+891_3,-1
+891_4,-1
+891_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+905_4,17
+905_5,-1
+906_1,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+905_4,17
+905_5,17
+906_1,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+918_4,-1
+918_5,-1
+919_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+918_4,-1
+918_5,4
+919_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+921_2,4
+921_3,-1
+921_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+921_2,4
+921_3,30
+921_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+926_4,4
+926_5,-1
+927_1,24
+***** NORMALIZED_TEST_OUTPUT.CSV
+926_4,4
+926_5,35
+927_1,24
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+930_3,9
+930_4,-1
+930_5,-1
+931_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+930_3,9
+930_4,9
+930_5,9
+931_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+933_4,8
+933_5,-1
+934_1,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+933_4,8
+933_5,8
+934_1,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+944_3,-1
+944_4,14
+944_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+944_3,-1
+944_4,-1
+944_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+948_3,-1
+948_4,4
+948_5,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+948_3,-1
+948_4,4 45
+948_5,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+958_4,-1
+958_5,-1
+959_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+958_4,-1
+958_5,9
+959_1,4
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+959_3,-1
+959_4,31
+959_5,-1
+960_1,4 8
+***** NORMALIZED_TEST_OUTPUT.CSV
+959_3,-1
+959_4,4 31
+959_5,4
+960_1,4 8
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+973_3,14
+973_4,14
+973_5,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+973_3,14
+973_4,-1
+973_5,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+975_4,-1
+975_5,9
+976_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+975_4,-1
+975_5,-1
+976_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+984_4,70
+984_5,-1
+985_1,9
+***** NORMALIZED_TEST_OUTPUT.CSV
+984_4,70
+984_5,42
+985_1,9
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+986_3,36
+986_4,-1
+986_5,-1
+987_1,14
+***** NORMALIZED_TEST_OUTPUT.CSV
+986_3,36
+986_4,36
+986_5,36
+987_1,14
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+989_2,22
+989_3,-1
+989_4,-1
+***** NORMALIZED_TEST_OUTPUT.CSV
+989_2,22
+989_3,4
+989_4,-1
+*****
+
+***** normalized_test_output 99.928% Training Accuracy.csv
+995_4,-1
+995_5,17
+996_1,4
+***** NORMALIZED_TEST_OUTPUT.CSV
+995_4,-1
+995_5,-1
+996_1,4
+*****
+
