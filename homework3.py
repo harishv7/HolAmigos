@@ -351,7 +351,7 @@ def main():
         beta_1=0.9, beta_2=0.999, early_stopping=False, 
         epsilon=1e-08, hidden_layer_sizes=(400, 200,), learning_rate='adaptive', 
         learning_rate_init=0.003, max_iter=1000, momentum=0.9, nesterovs_momentum=True, 
-        power_t=0.5, random_state=1, shuffle=True, solver='adam', 
+        power_t=0.5, random_state=1, shuffle=True, solver='lbfgs', 
         tol=1e-04, validation_fraction=0.1, verbose=True, warm_start=False)
 
     model.fit(sample_inputs, expected_outputs)
