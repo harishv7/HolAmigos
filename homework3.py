@@ -148,23 +148,13 @@ def main():
 
         # print(pos_tagged_content)
 
-        current_subjects = set()
-        current_verbs = set()
-        current_nouns = set()
         for i in range(len(pos_tagged_content)):
             if ("NNP" in pos_tagged_content[i][1]):
                 subjects.add(pos_tagged_content[i][0])
-                current_subjects.add(pos_tagged_content[i][0])
             elif ("VB" in pos_tagged_content[i][1]):
                 verbs.add(pos_tagged_content[i][0])
-                current_verbs.add(pos_tagged_content[i][0])
             elif ("NN" in pos_tagged_content[i][1]):
                 nouns.add(pos_tagged_content[i][0])
-                current_nouns.add(pos_tagged_content[i][0])
-
-        svn_permutations = generate_permutations(current_subjects, current_verbs, current_nouns)
-        for svn_permutation in svn_permutations:
-            svn.add(svn_permutation)
         
         ctr += 1
         if (ctr % 1000 == 0):
@@ -172,8 +162,7 @@ def main():
         if (ctr == NUM_TRAINING_SAMPLES):
             break
             
-    # svn_permutations = generate_permutations(subjects, verbs, nouns)
-    svn_permutations = svn
+    svn_permutations = generate_permutations(subjects, verbs, nouns)
 
     print("Number of subjects: " + str(len(subjects)))
     for subject in subjects:
@@ -196,9 +185,10 @@ def main():
     
     # Generate hash to input neuron id mapping and hash to output neuron id mapping
     for svn_permutation in svn_permutations:
-        hash_value = (calculate_hash(svn_permutation[0]) + 
-                      calculate_hash(svn_permutation[1]) + 
-                      calculate_hash(svn_permutation[2])) % 1000000007
+        hash_value = 0
+        for svn_permutation_element in svn_permutation:
+            hash_value += calculate_hash(svn_permutation_element)
+            hash_value %= 1000000007
         hash_to_input_neuron_id_map[hash_value] = current_input_neuron_id
         current_input_neuron_id += 1
     
@@ -304,9 +294,9 @@ def main():
     np.save("expected_output", np.array(expected_outputs))
     
     # Search for optimal hyperparameters by using grid search
-    m_alpha = [1e-03, 1e-02]
-    m_batch_size = [500, 1000]
-    m_hidden_layer_sizes = [(400, 200,), (300, 150,)]
+    m_alpha = [1e-03]
+    m_batch_size = [500]
+    m_hidden_layer_sizes = [(400, 200,)]
     m_learning_rate_init = [0.003]
     
     for c_alpha in m_alpha:
