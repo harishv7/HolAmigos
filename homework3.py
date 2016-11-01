@@ -276,7 +276,13 @@ def main():
         else:
             statement_permutations = parse_statement(content)
             
+            is_last_give = False
             for statement_permutation in statement_permutations:
+                if (is_last_give and statement_permutation[1] == "give"):
+                    statement_permutation = (statement_permutation[0], "take", statement_permutation[2])
+                    is_last_give = False
+                if (not is_last_give and statement_permutation[1] == "give"):
+                    is_last_give = True
                 hash_value = (calculate_hash(statement_permutation[0]) + 
                               calculate_hash(statement_permutation[1]) + 
                               calculate_hash(statement_permutation[2])) % 1000000007
@@ -294,7 +300,7 @@ def main():
     np.save("expected_output", np.array(expected_outputs))
     
     # Search for optimal hyperparameters by using grid search
-    m_alpha = [1e-03]
+    '''m_alpha = [1e-03]
     m_batch_size = [500]
     m_hidden_layer_sizes = [(400, 200,)]
     m_learning_rate_init = [0.003]
@@ -344,14 +350,14 @@ def main():
                         average_accuracy += accuracy
                     
                     average_accuracy /= 5
-                    print("Average validation accuracy: " + str(average_accuracy))
+                    print("Average validation accuracy: " + str(average_accuracy))'''
     
     print("Training the model...")
     model = MLPClassifier(activation='logistic', alpha=1e-03, batch_size=500, 
         beta_1=0.9, beta_2=0.999, early_stopping=False, 
         epsilon=1e-08, hidden_layer_sizes=(400, 200,), learning_rate='adaptive', 
         learning_rate_init=0.003, max_iter=1000, momentum=0.9, nesterovs_momentum=True, 
-        power_t=0.5, random_state=1, shuffle=True, solver='lbfgs', 
+        power_t=0.5, random_state=1, shuffle=True, solver='adam', 
         tol=1e-04, validation_fraction=0.1, verbose=True, warm_start=False)
 
     model.fit(sample_inputs, expected_outputs)
@@ -460,7 +466,13 @@ def main():
         else:
             statement_permutations = parse_statement(content)
             
+            is_last_give = False
             for statement_permutation in statement_permutations:
+                if (is_last_give and statement_permutation[1] == "give"):
+                    statement_permutation = (statement_permutation[0], "take", statement_permutation[2])
+                    is_last_give = False
+                if (not is_last_give and statement_permutation[1] == "give"):
+                    is_last_give = True
                 hash_value = (calculate_hash(statement_permutation[0]) + 
                               calculate_hash(statement_permutation[1]) + 
                               calculate_hash(statement_permutation[2])) % 1000000007
