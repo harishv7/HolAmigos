@@ -436,6 +436,7 @@ def main():
             # Clear hashed statements for new story
             hashed_statements.clear()
         
+        # Populate the keyword to id map
         for i in range(len(pos_tagged_content)):
             # Ignore punctuations
             if (pos_tagged_content[i][0] in string.punctuation):
@@ -529,6 +530,7 @@ def main():
         np.save("test_output", model.predict(test_inputs))
         np.save("test_output_proba_" + str(bagging_iteration), model.predict_proba(test_inputs))
 
+    # Average the proba values over all the bags
     for bagging_iteration in range(bagging_iterations):
         loaded_test_outputs_proba = np.load("test_output_proba_" + str(bagging_iteration) + ".npy")
         if (bagging_iteration == 0):
