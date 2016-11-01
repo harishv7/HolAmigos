@@ -4,6 +4,7 @@ import nltk
 from nltk import pos_tag, word_tokenize
 from nltk.stem.wordnet import WordNetLemmatizer
 from sklearn.neural_network import MLPClassifier
+from sklearn.utils import shuffle
 import copy
 import string
 
@@ -130,6 +131,7 @@ def main():
     subjects = set()
     verbs = set()
     nouns = set()
+    svn = set()
     for training_data_point in training_dataset[0]:
         index_content_pair = split_index(training_data_point)
         index = index_content_pair[0]
@@ -146,24 +148,42 @@ def main():
 
         # print(pos_tagged_content)
 
+        current_subjects = set()
+        current_verbs = set()
+        current_nouns = set()
         for i in range(len(pos_tagged_content)):
             if ("NNP" in pos_tagged_content[i][1]):
                 subjects.add(pos_tagged_content[i][0])
+                current_subjects.add(pos_tagged_content[i][0])
             elif ("VB" in pos_tagged_content[i][1]):
                 verbs.add(pos_tagged_content[i][0])
+                current_verbs.add(pos_tagged_content[i][0])
             elif ("NN" in pos_tagged_content[i][1]):
                 nouns.add(pos_tagged_content[i][0])
+                current_nouns.add(pos_tagged_content[i][0])
 
-        svn_permutations = generate_permutations(subjects, verbs, nouns)
-
+        svn_permutations = generate_permutations(current_subjects, current_verbs, current_nouns)
+        for svn_permutation in svn_permutations:
+            svn.add(svn_permutation)
+        
         ctr += 1
-        print(ctr)
+        if (ctr % 1000 == 0):
+            print(str(ctr) + " / " + str(len(training_dataset[0])))
         if (ctr == NUM_TRAINING_SAMPLES):
             break
+            
+    # svn_permutations = generate_permutations(subjects, verbs, nouns)
+    svn_permutations = svn
 
     print("Number of subjects: " + str(len(subjects)))
+    for subject in subjects:
+        print(subject)
     print("Number of verbs: " + str(len(verbs)))
+    for verb in verbs:
+        print(verb)
     print("Number of nouns: " + str(len(nouns)))
+    for noun in nouns:
+        print(noun)
     print("Number of permutations: " + str(len(svn_permutations)))
     
     print("Identifying all the required hashes...")
@@ -275,33 +295,83 @@ def main():
         # print()
 
         ctr += 1
-        print(ctr)
+        if (ctr % 1000 == 0):
+            print(str(ctr) + " / " + str(len(training_dataset[0])))
         if (ctr == NUM_TRAINING_SAMPLES):
             break
     
     np.set_printoptions(threshold=np.nan)
     np.save("expected_output", np.array(expected_outputs))
     
-    # Initialize model
-    model = MLPClassifier(activation='logistic', alpha=1e-04, batch_size=500, 
-                          beta_1=0.9, beta_2=0.999, early_stopping=False,
-                          epsilon=1e-08, hidden_layer_sizes=(572, 286), learning_rate='adaptive', 
-                          learning_rate_init=0.005, max_iter=1000, momentum=0.9,
-                          nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
-                          solver='adam', tol=1e-04, validation_fraction=0.1, verbose=True,
-                          warm_start=False)
+    # Search for optimal hyperparameters by using grid search
+    m_alpha = [1e-03, 1e-02]
+    m_batch_size = [500, 1000]
+    m_hidden_layer_sizes = [(400, 200,), (300, 150,)]
+    m_learning_rate_init = [0.003]
+    
+    for c_alpha in m_alpha:
+        for c_batch_size in m_batch_size:
+            for c_hidden_layer_sizes in m_hidden_layer_sizes:
+                for c_learning_rate_init in m_learning_rate_init:
+                    # Train the model
+                    print("Training model with alpha = " + str(c_alpha) + 
+                          ", batch size = " + str(c_batch_size) + 
+                          ", hidden layer sizes = " + str(c_hidden_layer_sizes) + 
+                          ", learning rate = " + str(c_learning_rate_init))
+                    
+                    average_accuracy = 0
+                    for iteration in range(5):
+                        # Initialize model
+                        model = MLPClassifier(activation='logistic', alpha=c_alpha, batch_size=c_batch_size, 
+                                              beta_1=0.9, beta_2=0.999, early_stopping=False,
+                                              epsilon=1e-08, hidden_layer_sizes=c_hidden_layer_sizes, learning_rate='adaptive', 
+                                              learning_rate_init=c_learning_rate_init, max_iter=1000, momentum=0.9,
+                                              nesterovs_momentum=True, power_t=0.5, random_state=1, shuffle=True,
+                                              solver='adam', tol=1e-04, validation_fraction=0.1, verbose=False,
+                                              warm_start=False)
+                        
+                        # Shuffle training inputs and expected outputs in unison
+                        sample_inputs, expected_outputs = shuffle(sample_inputs, expected_outputs, random_state = 0)
+                        
+                        model.fit(sample_inputs[:int(0.8 * len(sample_inputs))], expected_outputs[:int(0.8 * len(expected_outputs))])
+
+                        # Cross-validate the model
+                        np.set_printoptions(threshold=np.nan)
+                        np.save("training_output", model.predict(sample_inputs[int(0.8 * len(sample_inputs)):]))
+
+                        loaded_expected_outputs = expected_outputs[int(0.8 * len(expected_outputs)):]
+                        loaded_training_outputs = np.load("training_output.npy")
+
+                        hit = 0
+                        miss = 0
+                        for i in range(len(loaded_expected_outputs)):
+                            if np.array_equal(loaded_expected_outputs[i], loaded_training_outputs[i]):
+                                hit += 1
+                            else:
+                                miss += 1
+                        accuracy = hit / (hit + miss)
+                        print("Validation accuracy: " + str(accuracy))
+                        average_accuracy += accuracy
+                    
+                    average_accuracy /= 5
+                    print("Average validation accuracy: " + str(average_accuracy))
     
     print("Training the model...")
-    
-    # Train the model
+    model = MLPClassifier(activation='logistic', alpha=1e-03, batch_size=500, 
+        beta_1=0.9, beta_2=0.999, early_stopping=False, 
+        epsilon=1e-08, hidden_layer_sizes=(400, 200,), learning_rate='adaptive', 
+        learning_rate_init=0.003, max_iter=1000, momentum=0.9, nesterovs_momentum=True, 
+        power_t=0.5, random_state=1, shuffle=True, solver='adam', 
+        tol=1e-04, validation_fraction=0.1, verbose=True, warm_start=False)
+
     model.fit(sample_inputs, expected_outputs)
-    
+
     np.set_printoptions(threshold=np.nan)
     np.save("training_output", model.predict(sample_inputs))
-    
+
     loaded_expected_outputs = np.load("expected_output.npy")
     loaded_training_outputs = np.load("training_output.npy")
-    
+
     hit = 0
     miss = 0
     for i in range(len(loaded_expected_outputs)):
@@ -309,9 +379,7 @@ def main():
             hit += 1
         else:
             miss += 1
-    
-    print(str(hit) + " hits")
-    print(str(miss) + " misses")
+
     print("Accuracy: " + str(hit / (hit + miss)))
     
     test_dataset = pd.read_csv("test.txt", delimiter = "\n", header = None)
@@ -415,9 +483,9 @@ def main():
     print("Classifying test data points...")
     
     np.save("test_output", model.predict(test_inputs))
+    np.save("test_output_proba", model.predict_proba(test_inputs))
     test_outputs = np.load("test_output.npy")
-    test_outputs_file = open("test_outputs.csv", "w")
-    print(test_outputs, file = test_outputs_file)
+    test_outputs_proba = np.load("test_output_proba.npy")
     
     print("Printing normalized outputs...")
     
@@ -457,8 +525,21 @@ def main():
             else:
                 print(" " + str(keyword_ids[j]), end = "", flush = True, file = normalized_test_outputs_file)
         
+        # In cases of ambiguity
         if (len(keyword_ids) == 0):
-            print("-1", end = "", flush = True, file = normalized_test_outputs_file)
+            # Find the output neuron with the largest value
+            max_proba_id = 0
+            for j in range(len(test_outputs_proba[i])):
+                if (test_outputs_proba[i][j] > test_outputs_proba[i][max_proba_id]):
+                    max_proba_id = j
+            
+            current_keyword = output_neuron_id_to_keyword_map[max_proba_id]
+            if (current_keyword not in keyword_to_id_maps[current_story_id - 1]):
+                print("-1", end = "", flush = True, file = normalized_test_outputs_file)
+            else:
+                print(keyword_to_id_maps[current_story_id - 1][current_keyword], end = "", 
+                      flush = True, file = normalized_test_outputs_file)
+        
         print(file = normalized_test_outputs_file)
     
 if __name__ == "__main__":
